@@ -54,7 +54,7 @@ const SignInPage = () => {
   return (
     <RouteGuardComponent check={data?.success} token={data?.token}>
       <div className=" container-layout py-2">
-        <div className=" center-layout md:h-screen  mt-40">
+        <div className=" center-layout md:h-screen mt-40 md:mt-0">
           <div className=" center-layout md:space-x-10">
             <div className="center-layout hidden md:block">
               <LoadingComponent data={signIn} />

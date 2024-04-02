@@ -66,7 +66,7 @@ const SignUpPage = () => {
           <LoadingComponent data={routeLoading} />
         </div>
       ) : (
-        <div className=" center-layout md:space-x-10 md:h-screen mt-20">
+        <div className=" center-layout md:space-x-10 md:h-screen mt- md:mt-0">
           <div className=" hidden md:block">
             <LoadingComponent data={signUp} />
           </div>
