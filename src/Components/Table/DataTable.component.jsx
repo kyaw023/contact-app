@@ -60,9 +60,7 @@ const DataTableComponent = ({ contactData, editHandler }) => {
           <Table className=" text-xs md:text-sm ">
             <TableHeader className=" bg-blue-600 !rounded-xl ">
               <TableRow className=" border-none">
-                <TableHead className="w-[100px] text-white rounded-l-xl">
-                  No
-                </TableHead>
+                <TableHead className=" text-white rounded-l-xl">No</TableHead>
                 <TableHead className=" text-white">Name</TableHead>
                 <TableHead className=" text-white">Email</TableHead>
                 <TableHead className=" text-white">Phone</TableHead>
@@ -76,10 +74,8 @@ const DataTableComponent = ({ contactData, editHandler }) => {
             {contactData?.map((contact, index) => {
               return (
                 <TableRow key={contact?.id}>
-                  <TableCell className="font-medium">
-                    {index + 1}
-                  </TableCell>
-                  <TableCell className="">{contact?.name}</TableCell>
+                  <TableCell className="font-medium">{index + 1}</TableCell>
+                  <TableCell className=" px-0">{contact?.name}</TableCell>
                   <TableCell>{contact?.email}</TableCell>
                   <TableCell>{contact?.phone}</TableCell>
                   <TableCell>{contact?.address}</TableCell>
