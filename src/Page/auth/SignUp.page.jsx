@@ -57,8 +57,6 @@ const SignUpPage = () => {
     await signUpFun(values);
   };
 
-  console.log(isSuccess, data, error);
-
   return (
     <div className=" container-layout py-2">
       {isLoading ? (
@@ -66,7 +64,7 @@ const SignUpPage = () => {
           <LoadingComponent data={routeLoading} />
         </div>
       ) : (
-        <div className=" center-layout md:space-x-10 md:h-screen mt- md:mt-0">
+        <div className=" center-layout md:space-x-10 md:h-screen mt-16 md:mt-0">
           <div className=" hidden md:block">
             <LoadingComponent data={signUp} />
           </div>

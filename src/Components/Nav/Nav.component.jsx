@@ -16,8 +16,6 @@ const NavComponent = () => {
 
   const nav = useNavigate();
 
-  console.log(isSuccess);
-
   const logoutHandler = async () => {
     localStorage.removeItem("token");
     await logoutHandlerFun();
