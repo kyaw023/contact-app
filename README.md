@@ -9,7 +9,7 @@ Currently, two official plugins are available:
 
 # Contact App
 
-This is a simple contact app built using React, React Router DOM, React Toolkit, React Toolkit-query, Formik, Yup, and Shadcn UI.
+This is a simple contact app built using React, React Router DOM, Redux Toolkit, Redux Toolkit-query, Formik, Yup, and Shadcn UI.
 
 ## Features
 
